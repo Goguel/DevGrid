@@ -21,8 +21,8 @@ jobs:
       - run: npm run generate-graph -- /tmp/contributions
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_USERNAME: manuelzzz
-          GITLAB_USERNAME: manuelzzz
+          GITHUB_USERNAME: Goguel
+          GITLAB_USERNAME: MiguelX
 
       - name: Publish to the assets branch
         run: |
